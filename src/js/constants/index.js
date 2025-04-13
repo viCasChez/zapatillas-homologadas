@@ -21,6 +21,7 @@ export const API = {
  */
 export const DOM_ELEMENTS = {
     MARCA_SELECT: document.querySelector('#marca'),
+    MARCA_SELECTED: document.querySelector('#selected-marca'),
     LIST_MODELS: document.querySelector('.list-models'),
     ACTUAL_YEAR: document.querySelector('#actualYear')
 };

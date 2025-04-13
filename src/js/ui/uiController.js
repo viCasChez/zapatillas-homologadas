@@ -21,7 +21,7 @@ export const loadBrands = async () => {
     try {
         DOM_ELEMENTS.MARCA_SELECT.disabled = true;
         const brands = await getBrands();
-        
+
         if (!brands.length) {
             DOM_ELEMENTS.MARCA_SELECT.innerHTML = '<option value="">No hay marcas disponibles</option>';
             return;
@@ -54,7 +54,14 @@ export const loadBrands = async () => {
  */
 const renderModel = (model) => {
     return `
-        <li>${model.modelo}</li>
+        <li>
+            ${model.modelo}
+            <img
+                src="src/img/logo.png"
+                alt="${model.modelo}"
+                class="icon"
+                onclick="window.open('https://www.google.com/search?q=${encodeURIComponent(DOM_ELEMENTS.MARCA_SELECT.value + ' ' + model.modelo)}&tbm=isch', '_blank')">
+        </li>
         <li class="${model.pista ? 'success' : 'error'}">${model.pista ? SYMBOLS.CHECK : SYMBOLS.CROSS}</li>
         <li class="${model.saltos ? 'success' : 'error'}">${model.saltos ? SYMBOLS.CHECK : SYMBOLS.CROSS}</li>
         <li class="${model.lanzamientos ? 'success' : 'error'}">${model.lanzamientos ? SYMBOLS.CHECK : SYMBOLS.CROSS}</li>
@@ -82,6 +89,8 @@ export const displayModels = async () => {
 
         DOM_ELEMENTS.LIST_MODELS.innerHTML = '<p class="loading">Cargando...</p>';
         const models = await getModels(brand);
+        
+        DOM_ELEMENTS.MARCA_SELECTED.innerHTML = models.length ? `${brand} (${models.length})` : 'Marca';
         
         if (!models.length) {
             DOM_ELEMENTS.LIST_MODELS.innerHTML = '<p class="no-results">No hay modelos disponibles para esta marca</p>';
