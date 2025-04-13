@@ -34,15 +34,16 @@ git clone https://github.com/viCasChez/vi-zapatillas-homologadas
 cd vi-zapatillas-homologadas
 
 2.- ### Estructura del Proyecto:
+```
 src/
 ├── js/
 │   ├── constants/     # Constantes y configuración
-│   ├── services/      # Servicios de datos
-│   ├── ui/           # Controladores de UI
-│   └── utils/        # Utilidades y helpers
-├── css/              # Estilos
-└── data/            # Datos JSON
-
+│   ├── services/     # Servicios de datos
+│   ├── ui/          # Controladores de UI
+│   └── utils/       # Utilidades y helpers
+├── css/            # Estilos
+└── data/           # Datos JSON
+```
 
 ## 🧩 Módulos Principales
 
