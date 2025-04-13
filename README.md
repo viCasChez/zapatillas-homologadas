@@ -117,6 +117,11 @@ El código está completamente documentado usando JSDoc. Principales secciones:
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
+## 🌐 Demo
+
+- **URL del Repositorio:** https://github.com/viCasChez/vi-zapatillas-homologadas
+- **GitHub Pages:** https://vicaschez.github.io/vi-zapatillas-homologadas/
+
 ---
 
-Desarrollado por vi
+Desarrollado con ❤️ por vi.ZaHo
