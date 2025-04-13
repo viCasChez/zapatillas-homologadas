@@ -29,11 +29,13 @@ Este proyecto está diseñado para crear una página interactiva que muestra un 
 
 ## 🚀 Instalación y Configuración
 
-1.- ### Clonar el repositorio:
-git clone https://github.com/viCasChez/vi-zapatillas-homologadas
-cd vi-zapatillas-homologadas
+### 1. Clonar el repositorio:
+```
+git clone https://github.com/viCasChez/zapatillas-homologadas
+cd zapatillas-homologadas
+```
 
-2.- ### Estructura del Proyecto:
+### 2. Estructura del Proyecto:
 ```
 src/
 ├── js/
@@ -117,8 +119,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 🌐 Demo
 
-- **URL del Repositorio:** https://github.com/viCasChez/vi-zapatillas-homologadas
-- **GitHub Pages:** https://vicaschez.github.io/vi-zapatillas-homologadas/
+- **URL del Repositorio:** https://github.com/viCasChez/zapatillas-homologadas
+- **GitHub Pages:** https://vicaschez.github.io/zapatillas-homologadas/
 
 ---
 
