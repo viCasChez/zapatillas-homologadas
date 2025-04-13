@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vi.ZaHo</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Zapatillas Homologadas</h1>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="search-section">
+        <div class="search-container">
+          <div class="form-group">
+            <label for="marca">Marca:</label>
+            <select name="marca" id="marca" class="form-control"></select>
+          </div>
+        </div>
+      </section>
+      <section class="results-section">
+        <div class="zapatillas-container">
+          <h2 id="selected-marca">Marca</h2>
+          <div class="list-models">
+            <ul>
+              <li>Modelo</li>
+              <li>Pista</li>
+              <li>Saltos</li>
+              <li>Lanzamientos</li>
+              <li>Asfalto</li>
+              <li>Cross</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p><span id="actualYear"></span> vi.ZaHo [Zapatillas Homologadas]</p>
+    </div>
+  </footer>
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
