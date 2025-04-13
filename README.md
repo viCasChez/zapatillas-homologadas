@@ -30,13 +30,10 @@ Este proyecto está diseñado para crear una página interactiva que muestra un 
 ## 🚀 Instalación y Configuración
 
 1.- ### Clonar el repositorio:
-\`\`\`bash
 git clone https://github.com/viCasChez/vi-zapatillas-homologadas
 cd vi-zapatillas-homologadas
-\`\`\`
 
 2.- ### Estructura del Proyecto:
-\`\`\`
 src/
 ├── js/
 │   ├── constants/     # Constantes y configuración
@@ -45,7 +42,7 @@ src/
 │   └── utils/        # Utilidades y helpers
 ├── css/              # Estilos
 └── data/            # Datos JSON
-\`\`\`
+
 
 ## 🧩 Módulos Principales
 
@@ -124,4 +121,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ---
 
-Desarrollado con ❤️ por vi.ZaHo
+Desarrollado por vi.
